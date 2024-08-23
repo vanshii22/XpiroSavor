@@ -1,0 +1,362 @@
+/* Navbar css */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.1rem;
+    }
+    .primary-btn {
+        padding: 0.4rem 0.5rem;
+        font-size: 1rem;
+    }
+    .secondary-btn {
+        padding: 0.5rem 0.7rem;
+        margin-left: 1.2rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 992px){
+    .secondary-btn {
+        margin-left:0;
+        margin-top:1rem;
+        font-size: 1rem;
+    }
+}
+/* Hero section css */
+@media (max-width: 940px) {
+    .hero-img {
+        text-align: center;
+    }
+}
+@media (max-width: 450px) {
+    .hero-img {
+        order: -1;
+        text-align: center;
+    }
+}
+/* Common Responsive css */
+@media only screen and (min-width: 1100px) and (max-width: 1399px) {
+    .main-heading {
+        font-size: 3rem;
+    }
+    .para {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+}
+@media only screen and (min-width:700px) and (max-width: 1099px) {
+    .main-heading {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .para {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 698px) {
+    .main-heading {
+        font-size: 2.1rem;
+    }
+    .para {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .primary-btn {
+        font-size: 1rem;
+        padding: 0.4rem 0.5rem
+    }
+    .secondary-btn {
+        font-size: 1rem;
+        padding: 0.5rem 0.6rem
+    }
+}
+@media only screen and (max-width: 395px) {
+    .main-heading {
+        font-size: 2rem;
+    }
+    .para {
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+/* Humanity Section css */
+@media(max-width:768px) {
+    #humanity-sec {
+        margin-top: 4rem;
+    }
+}
+@media(max-width:900px) {
+    #humanity-sec {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+}
+@media(max-width:530px) {
+    .heading {
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+}
+@media(max-width:698px) {
+    .para {
+        font-size: 1.2rem;
+    }
+}
+/* Story Section */
+@media only screen and (min-width:990px) and (max-width:1400px) {
+    .story-img img {
+        width: 90%;
+        padding-top: 4rem;
+    }
+}
+@media (max-width: 768px) {
+    .story-sec {
+        padding-top: 1rem !important;
+    }
+    .story-img img {
+        width: 70%;
+        padding-bottom: 2rem;
+    }
+    @media (max-width: 940px) {
+        .story-img {
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .story-img {
+        order: -1;
+        text-align: center;
+    }
+}
+/* Fundraiser Section css */
+@media only screen and (min-width:990px) and (max-width:1400px) {
+    .fundraiser-img img {
+        width: 90%;
+        padding-top: 4rem;
+    }
+}
+@media (max-width: 768px) {
+    .fundraiser-sec {
+        padding-top: 1rem !important;
+    }
+    .fundraiser-img img {
+        width: 70%;
+        padding-bottom: 2rem;
+    }
+    @media (max-width: 940px) {
+        .fundraiser-img {
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .fundraiser-img {
+        order: -1;
+        text-align: center;
+    }
+}
+/* Medicine Section */
+@media(max-width:768px) {
+    #medicine-sec {
+        margin-top: 4rem;
+    }
+}
+@media(max-width:650px) {
+    #medicine-sec {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+}
+/* Community Section */
+@media(max-width:523px) {
+    .join-community{
+        padding: 2rem 1rem !important;
+    }
+}
+@media(max-width:702px) {
+    .join-community{
+        margin-top: 3rem;
+    }
+}
+@media only screen and (min-width:524px) and (max-width:702px) {
+    .join-community{
+        padding: 4rem 2rem !important;
+    }
+}
+@media only screen and (min-width:702px) and (max-width:990px) {
+    .join-community{
+        padding: 5rem 8rem !important;
+        margin-top: 6rem;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1127px) {
+    .join-community{
+        padding: 5rem 6rem !important;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1075px) {
+    .join-community img {
+        width: 53%;
+    }
+}
+@media only screen and (min-width:1075px) and (max-width:1127px) {
+    .join-community img {
+        width: 30%;
+    }
+}
+@media(max-width:991px) {
+    .join-community img {
+        display: none;
+    }
+}
+@media(max-width:1700px) {
+    .join-community img {
+        width: 50%;
+    }
+}
+@media(max-width:1370px) {
+    .join-community img {
+        width: 55%;
+    }
+    .join-community .para {
+        width: 90%;
+    }
+    .join-community .main-heading {
+        font-size: 2.4rem;
+    }
+}
+@media(max-width:1250px) {
+    .join-community img {
+        width: 60%;
+    }
+    .join-community .para {
+        width: 100%;
+    }
+    .join-community .main-heading {
+        font-size: 2.2rem;
+    }
+}
+@media(max-width:1164px) {
+    .join-community img {
+        width: 62%;
+    }
+    .join-community .para {
+        width: 100%;
+    }
+    .join-community .main-heading {
+        font-size: 2rem;
+    }
+}
+/* Footer */
+@media(max-width:986px) {
+    footer{
+        /* margin-top: 2rem ; */
+        padding: 2.5rem 2.5rem ;
+    }
+}
+@media(max-width:989px) {
+    .footer-menu {
+        font-size: 1.1rem;
+    }
+    footer .article .para {
+        font-size: 1.2rem;
+    }
+    footer .article.menu li a {
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:989px) {
+    footer .article {
+        padding-top: 2rem;
+    }
+}
+/* Work Page */
+@media(max-width:500px) {
+    #work-section img{
+       width:80%;
+    }
+}
+@media(max-width:500px) {
+    #work-section img{
+       width:80%;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1172px) {
+    .work-images img {
+        width: 100%;
+    }
+}
+@media(max-width:992px){
+    .work-images{
+        text-align: center;
+        order: -1;
+    } 
+}
+/* Benefit Cards */
+@media(max-width:912px){
+    #benefit .benefit-batch{
+        display: none;
+    } 
+}
+@media(max-width:768px){
+    #benefit-cards .card{
+        margin-top: 2rem;
+      }
+}
+@media(max-width:540px){
+    .join-content .para{
+        padding:1.5rem;
+    } 
+}
+@media(max-width:425px){
+    .ben1 .ben2{
+        display: none;
+    }
+}
+/* Contact Cards */
+@media(max-width:768px){
+    #contact-cards .card{
+        margin-top: 2rem;
+      }
+}
+@media(max-width:425px){
+    #contact-cards .card{
+       height: 32rem;
+      }
+      #contact-cards ul li {
+        font-size: 1.1rem;
+    }
+}
+/* Partnership */
+@media(max-width:1024px){
+    .partnership-img img{
+        width:90%;
+      }
+      .partnership-img{
+        text-align: center;
+      } 
+}
+@media(max-width:990px){
+    .partnership-img img{
+       margin-bottom: 4rem;
+      }
+}
+/* Popup  */
+@media(max-width:627px){
+    .popup {
+        width: 350px;
+      }
+}
+@media(max-width:487px){
+    .popup {
+        width: 300px;
+      }
+}
+@media(max-width:375px){
+    .popup {
+        width: 270px;
+      }
+}
+
